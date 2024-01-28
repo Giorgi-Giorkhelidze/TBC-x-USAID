@@ -294,6 +294,8 @@ body {
   color: #007cad;
 }
 
+/*accoridon container--------------------------------------------------------*/
+
 .accordion {
   width: 900px;
   display: flex;
@@ -316,7 +318,7 @@ body {
 }
 
 .accordion .contentBx .label::before {
-  content: url("arrowdown.PNG");
+  content: url("../resorces/arrowdown.PNG");
   position: absolute;
   top: 50%;
   right: 20px;
@@ -324,7 +326,7 @@ body {
   font-size: 1.5em;
 }
 .accordion .contentBx.active .label::before {
-  content: url("arrowup.png");
+  content: url("../resorces/arrowup.png");
 }
 
 .accordion .contentBx .content {
